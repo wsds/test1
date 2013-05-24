@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<!--Google Web Fonts Lato-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+		<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en-US" />
+<meta name="keywords" content="online shopping, shopping club,celebrity endorsed e-commerce" />
+<meta name="description" content="Personalized Skin Care by Jessica Simpson" />
+<meta property="og:title" content="BeautyMint" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="195182913864719" />
+<meta property="og:url" content="http://www.beautymint.com" />
+<meta property="og:image" content="http://www.beautymint.com/assets/images/facebook/stylemint.jpg" />
+<meta property="og:site_name" content="BeautyMint" />
+<meta property="og:description" content="Personalized Skin Care by Jessica Simpson" />
+<link href="/platform/assets/css/xmint-core.css" media="screen" rel="stylesheet" type="text/css" name="xmint-core" />
+<link href="/assets/css/beautymint1.css" media="screen" rel="stylesheet" type="text/css" name="beautymint1-css" />
+<script type="text/javascript" src="/assets/js/mint.js"></script>
+<script type="text/javascript" src="/platform/assets/js/platform.js"></script>
+<script type="text/javascript" src="/assets/js/beautymint1.js"></script>
+<script type="text/javascript" src="/assets/js/reccomendations.js?hash=945f814b691c9e7ffdafad59da6692f765091592"></script>
+<script type="text/javascript" src="/assets/js/tooltip.js?hash=945f814b691c9e7ffdafad59da6692f765091592"></script>
+<title>BeautyMint</title>	</head>
+<body>
+	<div class="headerbg">
+	<div class="header col2 clearfix">
+		<div class="logo col"><a data-stest="logoMain" href="http://www.beautymint.com/">BeautyMint</a></div>
+		<div class="nav-top col">
+			<div class="login-fly clearfix">
+	<script type="text/mint-customer-bar">{
+		"nav": {
+			"loggedIn": {
+				"account" : {type: 'link', href: 'http://www.beautymint.com/account', text: 'Account' },
+				"credits" : null
+			},
+			"loggedOut": {
+				"register" : {type: 'text', text: 'New to BeautyMint? <a href="http://www.beautymint.com/skin-consultation">Register</a>'}
+			}
+		}
+	}</script>
+</div>			<ul class="quicklinks clearfix">
+	<li >
+		<a data-stest="WhyHeader" href="http://www.beautymint.com/why-beautymint">Why BeautyMint</a>
+	</li>
+	<li >
+		<a data-stest="HowItWorksHeader" href="http://www.beautymint.com/how-it-works">How It Works</a>
+	</li>
+	<li >
+		<a data-stest="OurStoryHeader" href="http://www.beautymint.com/our-story">Our Story</a>
+	</li>
+</ul>		</div>
+	</div>
+</div>
+
+<div class="loggedbg">
+	<div class="logged">
+		<div class="loggedbar clearfix">
+
+			<div class="logged-credit R"></div>
+		</div>
+	</div>
+</div>
+
+<ol class="profile-top-bar clearfix">
+	<li class="selected"><a href="http://www.beautymint.com/results">My Results</a></li>
+</ol>
+
+	<div class="mainbg">
+		<div class="main clearfix">
+
+		        <div class="results">
+	<div class="col1 top-header">
+		<div class="col">
+			<h1>Wsds,</h1>
+			<h3>Based On Your Specific Skin <br />Care Needs, we have Created <br /><strong>Two Amazing Systems For You.</strong></h3>
+			<img src="/assets/images/results/seperator-long.png" />
+            			<a class="clearfix tip-link"><span class="L">Your Beauty Sign Is: </span><img src="/assets/images/clear.png" alt="" class="beauty-sign sm a6 c9 b9 L"/><strong class="L">6<span>&bull;</span>9<span>&bull;</span>9</strong></a>
+			<div class="tip" style="display: none; ">
+				<a href="#" class="close">X</a>
+				<div>This BeautySign was created for you based on your answers to our skin care consultation, plus other factors like your environment and lifestyle. Now, Nerida &amp; Jessica can share beauty advice, insider tips and resources customized for you.</div>
+			</div>
+					</div>
+	</div>
+    <script type="text/html" id="product-detail-popup">
+    <div id="product-detail">
+        <ul id="details-switch-tabs" class="mint-switch-tabs clearfix">
+            <li class="active"><a href="#" data-tab-type="overview">overview</a></li>
+            <li><a href="#" data-tab-type="details">details</a></li>
+        </ul>
+        {{each(i, productSet) both}}
+            <div class="type-container ${i} {{if i !== selectedType}} hidden{{/if}}">
+                {{each(j,product) productSet.productArr}}
+                    <div class="p-detail-overview hidden" data-product-id="${product.id}" data-product-pos="${j}">
+                    </div>
+                    <div class="p-detail-info {{if selected.id !== product.id}}hidden{{/if}}" data-product-id="${product.id}" data-product-pos="${j}">
+                         <div class="split-pane one center L">
+                            <img class="large-image" alt="" src="${product.modalImage.src}" style="max-height:475px;" />
+                         </div>
+                         <div class="split-pane two L">
+                              <div class="p-details-inner" data-tab-type="overview">
+                                <p>
+                                    <span class="p-detail-title">Purpose</span>
+                                    ${product.description}
+                                </p>
+
+                                {{if product.cleanAttrs.claims.length }}
+                                    <span class="p-detail-title">Benefits</span>
+                                    <ul class="p-detail-list">
+                                    {{each(i,claim) product.cleanAttrs.claims}}
+                                        <li><span>${claim}</span></li>
+                                    {{/each}}
+                                    </ul>
+                                {{/if}}
+                                
+                                {{if product.cleanAttrs.video.length && selectedType == i}}
+                                    <object id="myExperience${product.cleanAttrs.video}" class="BrightcoveExperience">
+                                      <param name="bgcolor" value="#FFFFFF" />
+                                      <param name="width" value="300" />
+                                      <param name="height" value="175" />
+                                      <param name="playerID" value="${product.cleanAttrs.video}" />
+                                      <param name="playerKey" value="AQ~~,AAAAkQZlPSE~,1fpcN8W7qFxe3M2O--dTogQuKf3ElMuX" />
+                                      <param name="isVid" value="true" />
+                                      <param name="isUI" value="true" />
+                                      <param name="dynamicStreaming" value="true" />
+                                      <param name="@videoPlayer" value="${product.cleanAttrs.video}" />
+                                    </object>
+                               {{/if}}
+                            </div>
+                            <div class="p-details-inner hidden" data-tab-type="details">
+                            <p>
+                                <span class="p-detail-title">Directions:</span>
+                                ${product.cleanAttrs.usageDirections}
+                             </p>
+                            {{if product.cleanAttrs.ingredients.length }}
+                             <p>
+                                 <span class="p-detail-title">Ingredients</span>
+                                 ${product.cleanAttrs.ingredients}
+                             </p>
+                            {{/if}}
+                            </div>
+                         </div>
+                     </div>
+               {{/each}}
+               <div class="circle-tabs-cont clearfix">
+                   <p class="second-title L">Other products in your system </p>
+                   <ul class="circle-num-tabs clearfix">
+                   {{each(k,product) productSet.productArr}}
+                        <li class="L{{if selected.id == product.id}} active{{/if}}"><a href="#" data-product-id="${product.id}" data-product-pos="${k}" title="${product.name}">${iter}</a></li>
+                   {{/each}}
+
+                   ${iter("reset iterator")}
+                   </ul>
+               </div>
+           </div>
+       {{/each}}
+    </div>
+ </script>
+   	<div class="col1">
+		<div class="col beauty-system clearfix"></div>
+                <script id="reccomendation-widget-tmpl" type="text/x-jquery-tmpl">
+			<div class="four-piece L">
+                <div class="topbg">
+				    <h2 class="four-piece-title">Your Core System</h2>
+                </div>
+				<h3>Comprehensive <br /><strong>4-Piece System</strong></h3>
+				<img class="seperator" src="/assets/images/results/seperator-small.png" />
+				<ol class="product-images">
+                    {{each(i, product) both['four']['productArr']}}
+                         <li data-product-id="${product.id}">
+                                <a href="#" class="rec-more-info" title=""><img src="${product.image.src}" alt=""/></a>
+                         </li>
+                    {{/each}}
+			    </ol>
+				<ol class="product-titles">
+                    {{each(i, product) both['four']['productArr']}}
+                        <li data-product-id="${product.id}"> ${titles[i]}</br>
+                            <a href="#" class="rec-more-info" title="" >more info</a>
+                        </li>
+                        {{if i < 3}}
+                            <li class="addition">+</li>
+                        {{/if}}
+                    {{/each}}
+				</ol>
+				<span class="bottom-border">&nbsp;</span>
+			</div>
+			<div class="five-piece L">
+                <div class="topbg">
+				    <h2 class="five-piece-title">Jessica&rsquo;s Recommendation</h2>
+                </div>
+				<img src="/assets/images/results/best-value.png" class="best-value"/>
+				<h3>Advanced <br /><strong>5-Piece System</strong></h3>
+				<img class="seperator" src="/assets/images/results/seperator-small.png" />
+				<ol class="product-images">
+                    {{each(i,product) both['five']['productArr']}}
+                        {{if i < 4}}
+                            <li data-product-id="${product.id}">
+                                <a href="#" class="rec-more-info" title=""><img src="${product.image.src}" alt=""/></a>
+                            </li>
+                        {{/if}}
+                    {{/each}}
+                </ol>
+                <ol class="product-titles">
+                    {{each(i, product) both['five']['productArr']}}
+                        {{if i < 4}}
+                        <li data-product-id="${product.id}">${titles[i]}</br>
+                            <a href="#" class="rec-more-info" title="" >more info</a>
+                        </li>
+                            {{if i < 3}}
+                            <li class="addition">+</li>
+                            {{/if}}
+                        {{/if}}
+                    {{/each}}
+
+				</ol>
+				<div class="advanced">
+                     <ul class="L">
+                        <li data-product-id="${both['five'].advanced.id}">
+                            <a href="#" class="rec-more-info"><img src="${both['five'].advanced.advancedImage.src}" alt=""/></a>
+                         </li>
+                     </ul>
+                    <h4>${titles[4]}</h4>
+                    <p>${both['five'].advanced.name} ${both['five'].advanced.cleanAttrs.subTitle}</p>
+                    <ul>
+                        <li data-product-id="${both['five'].advanced.id}"><a href="#" class="rec-more-info">more info</a></li>
+                    </ul>
+				</div>
+				<span class="bottom-border">&nbsp;</span>
+			</div>
+         </script>
+
+	</div>
+	<div class="col1">
+        <div id="claims" class="clearfix"></div>
+        <script type="text/x-jquery-tmpl" id="reccomendation-claim-tmpl">
+            <div class="col place-order clearfix">
+                <div class="four-piece-order L">
+                    <ul class="L">
+                        <li>${bullets.four.first}</li>
+                        <li>${bullets.four.second}</li>
+                        <li>Convenient replenishment to your doorstep</li>
+                    </ul>
+                    <div class="R">
+                        <ul class="clearfix">
+                            <li class="price">ONLY <br /><strong>$39.99</strong></li>
+                            <li class="s-h">+ $4.95 <br />S&amp;H</li>
+                        </ul>
+                        <a href="#" class="butblue order-but" data-type="four" data-stest='order-4-piece'><span>Order Now</span></a>
+                        <p>A <strong>$125</strong> Value</p>
+                    </div>
+                <span class="bottom-border">&nbsp;</span>
+                </div>
+                <div class="five-piece-order L">
+                    <ul class="L">
+                        <li>${bullets.five.first}</li>
+                        <li>${bullets.five.second}</li>
+                        <li><strong>${bullets.five.third}</strong></li>
+                        <li>Convenient replenishment to your doorstep</li>
+                    </ul>
+                    <div class="R">
+                        <ul class="clearfix">
+                            <li class="price">ONLY <br /><strong>$49.99</strong></li>
+                            <li class="s-h">+ FREE <br />SHIPPING</li>
+                        </ul>
+                        <a href="#" class="but order-but" data-type="five" data-stest='order-5-piece'><span>Order Now</span></a>
+                        <p>A <strong>$145</strong> Value</p>
+                    </div>
+                <span class="bottom-border">&nbsp;</span>
+                </div>
+            </div>
+        </script>
+	</div>
+	<div class="col2">
+		<div class="col">
+			<div class="study-results bottom-cell">
+				<p class="L clear bc-title">Beautymint <strong>Consumer study*</strong></p>
+                <p class="clear clearfix">After 8 weeks:</p>
+				<img src="/assets/images/results/stats.jpg" />
+                <p class="small-text">*Participants were given a personalized BeautyMint System to use for an 8 week period and asked for their honest opinion. Your results will vary.</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="bm-guarantee bottom-cell">
+				<h3>The Beautymint <strong>Promise</strong></h3>
+				<p>If you're not 100% satisfied with your BeautyMint system, simply return all your products – even if they're empty – within 30 days for a full refund (minus shipping and handling).</p>
+				<img src="/assets/images/results/guarantee.jpg"/>
+			</div>
+		</div>
+	</div>
+</div>
+
+ 		</div>
+	</div>
+
+	<div class="footer-bg">
+	<div class="footer">
+		<div class="col2 clearfix footer-links">
+				<div class="col L">
+
+					<!--<ul class="clearfix footer-quick">
+						<li><a data-stest="footerGetStarted" href="http://www.beautymint.com/skin-consultation">Join Now</a></li>
+						<li><a data-stest="footerHowItWorks" href="http://www.beautymint.com/how-it-works">How It Works</a></li>
+
+							<li><a href="http://blog.stylemint.com/" target="_blank">The Blog</a></li>
+
+						<li><a data-stest="footerPress" href="http://www.beautymint.com/press">Press</a></li>
+					</ul>-->
+
+					<ul class="clearfix">
+												<li><a data-stest="footerStories" href="http://www.beautymint.com/success-stories">Success Stories</a>|</li>
+												<li><a data-stest="footerFAQ" href="http://www.beautymint.com/member-faq">FAQ</a>|</li>
+						<li><a data-stest="footerContact" href="http://www.beautymint.com/contact">Contact</a>|</li>
+						<li><a data-stest="footerPrivacy" href="http://www.beautymint.com/privacy-policy">Privacy Policy</a>|</li>
+						<li><a data-stest="footerTerms" href="http://www.beautymint.com/terms-of-service">Terms of Service</a></li>
+					</ul>
+
+					<div class="copyright">&#169; 2011 Beachmint, Inc.</div>
+				</div>
+				<div class="col R">
+
+					<ul>
+						<li class="live-chat"><a target='_blank' href="https://chat2.livechatinc.com/licence/1069118/open_chat.cgi?lang=en&groups=3" onclick="window.open('https://chat2.livechatinc.com/licence/1069118/open_chat.cgi?lang=en&groups=3', 'Chat', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,copyhistory=no,resizable=no,width=668,height=600'); if(window._jaq) {_jaq.push(['_trackPageview','/chat/footer']);} return false;">Live Chat</a> or Call Toll-free <strong>1-888-488-2577</strong></li>
+					</ul>
+					<ul class="social">
+						<li><a href="http://www.facebook.com/BeautyMint" class="footer-facebook" data-stest="footer-facebook"></a></li>
+						<li><a href="http://twitter.com/#!/beautymint" class="footer-twitter" data-stest="footer-twitter"></a></li>
+						<li><a href="http://www.youtube.com/user/beautymint" class="footer-youtube" data-stest="footer-twitter"></a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+</div>	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17599786-9']);
+  _gaq.push(['_setDomainName', '.beautymint.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>	<!-- INSERT TRACKING PIXELS AND SCRIPTS FOR RETARGETING AND WHATNOT -->
+</body>
+</html>
